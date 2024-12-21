@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping(path = "/api/v1")
+@RequestMapping(path = "/library/api/v1")
 public class StudentController {
 
     private StudentService studentService;
